@@ -1,0 +1,18 @@
+{
+  "name": "huni-valley-shs-registration",
+  "version": "1.0.0",
+  "description": "Student registration portal for HUNI VALLEY SHS - simple Node.js server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "basic-auth": "^2.0.1",
+    "csv-stringify": "^6.3.3",
+    "mysql2": "^3.3.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
